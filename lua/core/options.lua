@@ -18,3 +18,13 @@ vim.cmd [[ set noswapfile ]]
 
 --Line numbers
 vim.wo.number = true
+
+vim.o.clipboard = 'unnamedplus'
+
+
+
+vim.opt.undofile = true
+vim.opt.undodir = "/home/gtoscano/.config/nvim/undodir"
+
+vim.opt.undodir = vim.fn.stdpath('config') .. "/undodir"
+
