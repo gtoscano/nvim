@@ -9,8 +9,8 @@ vim.opt.cursorline = true
 vim.opt.autoread = true
 
 -- use spaces for tabs and whatnot
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
@@ -20,6 +20,12 @@ vim.cmd [[ set noswapfile ]]
 vim.wo.number = true
 
 vim.o.clipboard = 'unnamedplus'
+vim.o.mouse = 'a'
+vim.o.smartcase = true
+vim.o.ignorecase = true
+vim.o.hlsearch = true
+vim.o.incsearch = true
+
 
 
 
